@@ -3,11 +3,8 @@ public class Main {
         Dog dog = new Dog();
         dog.height = 4;
         dog.type = "Labrador";
-        dog.Bark();
-       
-
+        dog.increase_age();
+        dog.Age();
     }
-
-
 
 }
